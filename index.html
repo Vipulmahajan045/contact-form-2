@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://ajx.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <form method="post" action="" id="cf">
+        <h1>Please Contact me</h1>
+
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="stored">
+
+            <label for="mail">Email</label>
+            <input type="text" name="email" id="email" class="stored">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" class="stored"></textarea>
+        </fieldset>
+
+        <button type="submit">Send</button>
+        <input type="reset" id="clear">
+    </form>
+    
+
+
+
+    <script src="contact.js"></script>
+</body>
+</html>
